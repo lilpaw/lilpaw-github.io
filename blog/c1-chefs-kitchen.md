@@ -1,0 +1,17 @@
+Kitchen vs. Table
+
+Reaction to Shereef's Fireside Chat
+
+10/31/2014
+
+I am a swirl of emotions! After watching Shereef's Fireside Chat, I am even more sure that I made the right decision to attend DBC. While I do well in a memorize-what-I-say-and-repeat-it-in-a-test environment, to truly learn, I knew that I needed to find a program that would push me to be more creative, to get my hands dirty, to go beyond the lessons and be okay to fail and ask questions. I feel that I have been conditioned to attempt perfection with any new endeavor and that asking questions reveals weaknesses. As an adult, I have been fighting against this conditioning, as I know that it has been holding me back from trying new things, accepting new challenges, and seeing my true potential. I'm ready to become a chef in the kitchen.
+
+My impression of DBC is that it is a program designed to encourage aspiring developers and put them on a realistic track towards success in the tech field. The students need to be ready to learn and put a lot of work into their time at DBC. The teachers need to be flexible, knowledgable, and ready to run with students if they go on any awesome sprints away from the cirriculum. There's an air of entrepreneurship and collaboration. You have to be ready to play well with others. I like everything about this.
+
+Shereef's chat put my little worries at ease. With my tendancy to strive for perfection, I've been laying awake at night thinking, "This is all new for me. How long before my lack of perfection becomes unacceptable at DBC?" Knowing that there is an understanding, even to the core of DBC, that everyone is a beginner and that we're expected to make mistakes and be humble - it just means the world to me. That said, I also expect to thrive in this environment. I love collaborating with people and seeing problems from multiple perspectives.
+
+One of my worries about entering the tech world has been about the culture. Knowing quite a few people that are currently developers of different levels, I've heard all manner of horror stories. Back-stabbing, blaming, huge egos, anti-women, anti-diversity, anti-anything that doesn't fit into the box of pale hacking nerd in a hoodie. I've known very capable people being let go because of "cultural fit." DBC seems to encourage the exact opposite of this behavior. This is why DBC appealed to me. The focus on not only talent, but how you build your personality as a developer and how your treat yourself as a developer, means that the program was formed around a care about the future of the tech community. In a world where Open Source exists, the culture should be more open and encouraging. I'd like to be a part of that change.
+
+I'm nervous, but in a good way. Having gone through the first week of Phase 0, every challenge has encouraged me more and has given me the opportunity to tell myself "this was the right choice." And when I say "the right choice," I don't just mean DBC, but also quitting my career as a photo editor - taking what has been a little hobby and trying to make a living out of it. It's been a scary but very exciting ride for me so far. I feel that I have already been asked to use my intelligence more this week than I have in the past two years on the job...and knowing that this is only the very beginning is thrilling.
+
+I become verbose when I'm excited.
