@@ -70,3 +70,20 @@ html {
   margin-right: 400px;
   text-align: left;
 }
+
+a {
+  color: #2E4A7F;
+}
+
+a:hover {
+  color: #5C95FF;
+  text-decoration: none;
+}
+#sampleproj {
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  float: left;
+  margin-top: 300px;
+
+}
