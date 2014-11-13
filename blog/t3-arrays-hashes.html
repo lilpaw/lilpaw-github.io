@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../blog-stylesheet.css"/>
+    <title>Arrays & Hashes
+    </title>
+    <h1>Arrays & Hashes</h1>
+
+    <h2>Oh, the possibilities!</h2>
+
+  </head>
+<body>
+  <p id="quote"> <!-- insert quote here --></p>
+  <img src="http://static.tvtropes.org/pmwiki/pub/images/Fifth_Element_General_Belt_1_4957.jpg"/>
+
+  <p id="blogtext">
+    There are a lot of possibilities with arrays and hashes. They both act as indexed collections of information. And they can contain each other - for example, an array can contain hashes as values and a hash can contain arrays.
+    <br><br>
+    A list of values resides in an array. Each item on the list can be pointed to by using an index, which uses zero-based numbering. So, if you had the following array:
+    <br><br>
+    <span class="ruby">pets = ['cat', 'dog', 'fish', 'ferret', 'hamster']</span>
+    <br><br>
+    If you asked for the first item in the array, you'd do it like this: pets[0] and the answer would be 'cat', since that is the value in the first (0) spot in the array. pets[1] would give the answer of 'dog'.
+    <br><br>
+    On the other hand, hashes (which are essentially a type of array) are a list of keys and values. Instead of using indexes to point to values, a hash uses keys.
+    <br><br>
+    <span class="ruby">pets {'cat' => 'Charlie', 'dog' => 'Chance', 'fish' => 'Candy', 'hamster' => 'Wendell'} </span>
+    <br><br>
+    In this instance, if you asked for the first item in the array, you'd be asking for the key & value. If you just wanted the value, you'd ask like this: pets['cat'] and the answer whould be 'Charlie'. If you wanted to know the value associated with 'hamster', you'd type pets[hamster] and receive 'Wendell' as the value.
+    <br><br>
+    Now, why do hashes and arrays open so many possibilities? Because of what you can do with them. Let's pretend that you're moving and you want to send out your new address to everyone that you know. You can use a hash to iterate over each person and their contact information to quickly print out envelopes for your announcement! Let's say that you're doing inventory at a store and have a huge list of items and the count in stock. You can use a hash to sort the items in anyway that you wish and not risk the counts being lost.
+    <br><br>
+    <span class='ruby'>
+    puts pets.length</span> #4, there are four sets of keys and values in the hash named pets
+    <br>
+    <span class='ruby'>
+    [6, 'jun'] => "June"</span> Use an array as a key, so either 6 or 'jun' will point to June.
+    <br>
+    <span class='ruby'>
+    pets.has_value?('Candy')</span> #true
+    <br><br>
+    You can use methods to find if an item exists, to add items to your list, to delete items, to calculate, divide, change values, etc... See? Possibilities.
+    <br><br>
+    And, you can have arrays within arrays. Basically, it's like having a library filled with dictionaries, or a drawer containing multiple address books, or a folder containing different types of lists.
+    <br><br>
+    <span class='ruby'>
+    library = [frenchdict{}, spanishdict{}, websterdict{}, oxforddict{}] </span>
+    <br><br>
+    As similar as hashes and arrays are to each other, I believe that hashes have more capabilities because they can use any object as the index.
+
+  </p>
+
+  <h4 id="11/13/2014"> <!-- post date --> </h4>
+  <p>
+    <a href="index.html">Blog</a>  <a href="../index.html">Home</a>
+</body>
+
+</html>
