@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../blog-stylesheet.css"/>
+    <title>Enumerable Methods
+    </title>
+    <h1> Enumerable Methods </h1>
+
+    <h2> Becoming aquainted with #map</h2>
+
+  </head>
+<body>
+  <p id="quote"> <!-- insert quote here --></p>
+  <!-- <img src=""/> -->
+
+  <p id="blogtext">
+    Enumerable is a module - a group of methods packaged together that can "mixin" with other classes. This just means that the methods in the Enumerable module can be included with other classes, such as Array and Hash. As long as a class has its own #each method, it can use the Enumerable methods as well. The methods in the Enumerable module give useful ways to deal with elements in a collection.
+    <br><br>
+    I chose to the method #map for this blog post. It's one that I wasn't familiar. It's an alias for #collect, which I also wasn't familiar.
+    <br><br>
+    #map creates a new array from the results of running a block of code over the elements of a collection. #map! changes the original collection, rather than creating a new array, so be mindful of the exclamation point.
+    <br><br>
+    <code>
+      [5, 10, 20, 50].map {|x| x * 2}<br>
+      #=> [10, 20, 40, 100]
+    </code>
+    <br><br>
+    <code>
+      pets = { "Charlie" => 6, "Mackie" => 9}<br>
+      pets.map {|pet,age| age = age + 1} <br>
+      #=> {Charlie" => 8, "Mackie" => 11}
+    <br><br>
+    Now, an example of #map!, which changes the original array.
+    <br><br>
+    <code>
+      names = ["brandi", "gabe", "charlie", "mackie"]<br>
+      names.map! {|i| i.capitalize}<br>
+      <br>
+      p names<br>
+      <br>
+      #=> ["Brandi", "Gabe", "Charlie", "Mackie"]
+    </code>
+    <br><br>
+    This can be extremely useful when working with collections of objects. Any time you need to change or work with a collection, you can use #map to iterate through the elements and create a new collection as a result.
+
+  </p>
+
+  <h4 id="postdate"> 11/22/2014 </h4>
+</body>
+  <p>
+    <a href="index.html">Blog</a>  <a href="../index.html">Home</a>
+  </p>
+</html>
