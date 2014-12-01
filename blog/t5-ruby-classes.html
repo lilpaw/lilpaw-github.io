@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../blog-stylesheet.css"/>
+    <title>Classes
+    </title>
+    <h1> Classes in Ruby </h1>
+
+    <h2> Creating a class to model something in real-life </h2>
+
+  </head>
+<body>
+  <p id="quote"> <!-- insert quote here --></p>
+  <a href="https://scontent-2.2914.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/10685344_10153614766748492_5613905367866756514_n.jpg?oh=73579352dd4cbb913f99392ef7a5d1c3&oe=55076135"><img src="https://scontent-2.2914.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/10685344_10153614766748492_5613905367866756514_n.jpg?oh=73579352dd4cbb913f99392ef7a5d1c3&oe=55076135"></a>
+
+  <p id="blogtext">
+    This week, we concentrated heavily on classes in Ruby. We learned to define them, the local variables and local methods within them, and it really expanded our knowledge. Basically, instead of only defining methods, we are now defining classes that can contain several methods - and can be shared with other classes.
+    <br><br>
+    Instance variables, as <a href="rubymonk.com">RubyMonk</a> says, "They are bound to an instance of a class and together forms what we call the state of an object. Every instance of a class has a different set of instance variables."
+    Classes are objects, and objects can have instances. The instance variables are the details of the instance of an object. Makes sense, right?
+    <br><br>
+    As an example, I'm going to create the ArcheryBow class. This will allow new instances of a bow to be created.
+    <br><br>
+    <pre>
+      class ArcheryBow
+        def initialize(type, color, stabilizer, brand)
+          @type = type.downcase
+          @color = color.downcase
+          @stabilizer = stabilizer.downcase
+          @brand = brand.downcase
+        end
+
+        def bow_type
+          if @type == "compound"
+            puts "Get ready for instant gratification and lots of gadgets!"
+          elsif @type == "crossbow"
+            puts "Heavy poundage and difficult to pull. I hope you have some strength!"
+          else
+            puts "Bows can be as bare or tricked out as you want. It all depends on your preference."
+        end
+
+        def personalize
+          if stabilizer == "yes"
+            puts "Your bow will be #{@color} with a stabilizer(s) of your choice."
+          else
+            puts "Your bow will be #{@color}."
+        end
+
+        def bow_brand
+          if @brand == "PSE"
+            puts "That's what I shoot! Great bows from a great maker!"
+          elsif @brand == "Hoyt"
+            puts "You must be getting serious, because Hoyts are really expensive and for advanced shooters."
+          else
+            puts "It's okay. Someday you'll feel the need to upgrade. Save your pennies!"
+        end
+      end
+
+      my_PSE = ArcheryBow.new("compound", "Blue with Green", "yes", "PSE")
+      my_PSE.bow_type <-- "Get ready for instant gratification and lots of gadgets!"
+      my_PSE.personalize <-- "Your bow will be blue with green with a stabilizer(s) of your choice."
+      my_PSE.bow_brand <-- "That's what I shoot! Great bows from a great maker!"
+
+    </pre>
+    <br><br>
+    In my example, I created the bow that is in the picture above, which is my PSE target compound. I used instance variables throughout because in a different instance of this class, the variables will point to different values that only apply to that instance.
+    <br><br>
+    I think that it's pretty clear that you can use classes to apply to anything in the real world. We could write a program that creates instances of apples, houses, footwear, etc.
+  </p>
+
+  <h4 id="postdate"> 11/30/2014 </h4>
+</body>
+  <p>
+    <a href="index.html">Blog</a>  <a href="../index.html">Home</a>
+  </p>
+</html>
