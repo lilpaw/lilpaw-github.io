@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../blog-stylesheet.css"/>
+    <title>Classes vs Modules
+    </title>
+    <h1> Classes vs Modules </h1>
+
+    <h2>  </h2>
+
+  </head>
+<body>
+  <p id="quote"> <!-- insert quote here --></p>
+  <!-- <img src=""/> -->
+
+  <p id="blogtext">
+    In Ruby, there are classes and modules. We've been working with classes for a couple of weeks, so I'll first focus on modules. <br><br>
+    Modules are tools to bundle objects together, a collection of methods and constants. They contain methods, and can hold classes as well. Modules have two purposes - namespacing and mixin.
+    <br><br>
+    Namespacing: a functionality that prevents interference of common names between packages. In other words, it <a href="http://rubymonk.com/learning/books/1-ruby-primer/chapters/35-modules/lessons/80-modules-as-namespaces">allows classes or modules with conflicting names to co-exist without collisions.
+    <br><br>
+    Mixin: allows the sharing of methods across multiple classes or modules. The example we're all familiar with at this point is Enumerable (as you notice, modules are given adjective names). Enumerable methods can be used by any classes that have an .each method.
+    <br><br>
+    Classes are "first-class" objects. When a class is created, it is a new object and an instance of the class Class. Classes contain instantiation and methods. They also inherit from modules, but modules do not inherit from classes. Regarding names, classes are given noun names.
+    <br><br>
+    Classes create objects and they inherit behavior, and they can also be a base for inheritance. Modules can be inherited, but do not inherit behavior from anything else. Modules can be included in classes and other modules.
+    <br><br>
+    Titling this top as a "vs" suggests that we have a choice of one over the other. From my research, I find that this isn't so. Modules and classes work together and knowing module capabilities can help when creating classes.
+  </a>
+  </p>
+
+  <h4 id="postdate"> 12/7/2014 </h4>
+</body>
+  <p>
+    <a href="index.html">Blog</a>  <a href="../index.html">Home</a>
+  </p>
+</html>
