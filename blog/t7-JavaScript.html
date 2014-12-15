@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../blog-stylesheet.css"/>
+    <title>Ruby vs. JS
+    </title>
+    <h1> Ruby Hashes vs. JavaScript Objects </h1>
+
+    <h2> What are the differences? </h2>
+
+  </head>
+<body>
+  <p id="quote"> <!-- insert quote here --></p>
+  <a href="https://www.flickr.com/photos/brandimford/5324274059" title="Mackie the Innocent by Brandi M Ford, on Flickr"><img src="https://farm6.staticflickr.com/5126/5324274059_02aeac8d54_o.jpg" alt="Mackie the Innocent"></a>
+
+  <p id="blogtext">
+    This past week was filled with JavaScript, a new language to me. It was fairly easy to work with but the thing I found to be the most confusing is that there are several items in JS that behave or look extremely similar to items in Ruby - but are not. One of those confusions was JavaScript Objects. They resemble Ruby Hashes, but aren't quite the same.
+    <br><br>
+    <b>Objects</b> in JavaScript are containers for named values. Such as:
+    <br><br>
+    <code>
+    var cat = {type: "domestic shorthair", color: "black and white", vaccinated: true};
+    </code>
+    <br><br>
+    The name:value pairs are called <b>properties</b>. The name (or key) is always a string. If you enter an integer as a key, JS will automatically convert it to a string. <b>Methods</b> are another named value that can be defined in an object. When methods are defined as part of an object, they are defined in properties as <b>function definitions</b>.
+    <br><br>
+    <code>
+    var cat = {type: "domestic shorthair", color: "black and white", vaccinated: true, ageHuman: 7, ageCat: function(){return cat.ageHuman * 7}};
+    </code>
+    <br><br>
+    Ruby Hashes act more like dictionaries - keys pointing to values. The keys in hashes can be any type - symbol, string, integer. Basically, anything that you want to point to a value can be used as a key. Hash pairs look similar to JavaScript name:value pairs.
+    <br><br>
+    Another difference is how items are accessed within a JS object vs. a Ruby hash.
+    <br><br>
+    JavaScript:<br>
+    <code>
+      cat.type //returns "domestic shorthair", type is a string
+    </code>
+    <br><br>
+    Ruby:<br>
+    <code>
+      cat["type"] # returns "domestic shorthair", where type is a string<br>
+      cat[:type] # example where type is a symbol
+    </code>
+    <br><br>
+    Ruby hashes also have built-in methods, but JavaScript objects do not.
+    <br><br>
+    As my significant other recently advised, when learning a new language, take absolutely nothing for granted. Even though it may look alike and behave in a similar manner, there are nuances that we have to become familiar with and discover so that we can properly proceed with our code. JavaScript objects may look like Ruby hashes, but they honestly behave more like Ruby objects.
+  </p>
+
+  <h4 id="postdate"> 12/15/2014 </h4>
+</body>
+  <p>
+    <a href="index.html">Blog</a>  <a href="../index.html">Home</a>
+  </p>
+</html>
