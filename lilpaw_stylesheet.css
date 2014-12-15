@@ -69,6 +69,7 @@ html {
   margin-top: 200px;
   margin-right: 400px;
   text-align: left;
+  overflow: scroll;
 }
 
 a {
