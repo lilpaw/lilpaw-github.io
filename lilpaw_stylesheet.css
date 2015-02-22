@@ -100,7 +100,7 @@ a:hover {
 }
 
 #bio {
-  display: block;
+/*  display: block;*/
   color: #2E4A7F;
   float: left;
   font-size: 25px;
@@ -108,10 +108,11 @@ a:hover {
   margin-right: 500px;
   text-align: left;
   overflow: scroll;
+  position: fixed;
 }
 
 #indexpara {
-  display: block;
+  /*display: block;*/
   color: #2E4A7F;
   position: fixed;
   float: left;
@@ -131,4 +132,12 @@ a:hover {
   margin-right: 500px;
   text-align: left;
   overflow: scroll;
+}
+
+#blogimg {
+  display: block;
+  border: 1px solid black;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
